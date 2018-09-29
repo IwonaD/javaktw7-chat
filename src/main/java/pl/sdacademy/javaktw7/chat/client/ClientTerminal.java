@@ -13,7 +13,7 @@ public class ClientTerminal implements Runnable {
 
 
     public ClientTerminal() throws IOException {
-        socket = new Socket("adres na ktory bedziemy sie laczyc", 5567);
+        socket = new Socket("192.168.32.45", 5567);
     }
 
 
