@@ -7,7 +7,7 @@ public class ChatMessage implements Serializable {
     //zaimplementowac interfej Serializable
     //wymusic wersje klasy na numer 1L
 
-    public static final long serialVersionUID = 1L;
+    private static final long serialVersionUID = 1L;
 
     private String author;
     private String message;
